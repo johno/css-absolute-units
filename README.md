@@ -15,7 +15,7 @@ npm install --save css-absolute-units
 ```javascript
 var cssAbsoluteUnits = require('css-absolute-units');
 
-cssAbsoluteUnits();  // => true
+cssAbsoluteUnits();  // => ['px', 'mm', 'cm', 'in', 'pt', 'pc', 'mozmm']
 ```
 
 ## License

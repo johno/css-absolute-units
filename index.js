@@ -1,7 +1,5 @@
 'use strict';
 
-module.exports = function cssAbsoluteUnits(options) {
-  options = options || {};
-
-  return true;
+module.exports = function cssAbsoluteUnits() {
+  return ['px', 'mm', 'cm', 'in', 'pt', 'pc', 'mozmm'];
 }
